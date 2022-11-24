@@ -1,0 +1,22 @@
+{
+    "microservices": [],
+    "microfrontends": [
+        {
+            "name": "adminlte-simple-cra",
+            "customElement": "adminlte-simple-cra",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "E71 Simple MFE",
+                "it": "E71 Simple MFE"
+            }
+        }
+    ],
+    "svc": [],
+    "name": "e71adminltechartsbundle",
+    "version": "0.0.1",
+    "description": "e71-react-widget description",
+    "type": "bundle"
+}
