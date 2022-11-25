@@ -1,5 +1,14 @@
 {
-    "microservices": [],
+    "microservices": [
+        {
+            "name": "adminlte-chartdata-ms",
+            "stack": "spring-boot",
+            "healthCheckPath": "/api/health",
+            "roles": [
+                "role1"
+            ]
+        }
+    ],
     "microfrontends": [
         {
             "name": "adminlte-simple-cra",
@@ -12,11 +21,32 @@
                 "en": "admin lte simple cra",
                 "it": "admin lte simple cra"
             }
+        },
+        {
+            "name": "adminlte-simple-chart",
+            "customElement": "adminlte-simple-chart",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "admin lte simple chart",
+                "it": "admin lte simple chart"
+            },
+            "apiClaims": [
+                {
+                    "name": "be-api",
+                    "type": "internal",
+                    "serviceName": "adminlte-chartdata-ms"
+                }
+            ]
         }
     ],
-    "svc": [],
-    "name": "e71adminltechartsbundle",
-    "version": "0.0.6",
-    "description": "e71-react-widget description",
+    "svc": [
+        "keycloak"
+    ],
+    "name": "e71-adminlte-charts-bundle",
+    "version": "0.0.1",
+    "description": "admin lte widgets for charting",
     "type": "bundle"
 }
