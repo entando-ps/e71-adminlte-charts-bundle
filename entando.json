@@ -46,7 +46,7 @@
         "keycloak"
     ],
     "name": "e71-adminlte-charts-bundle",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "admin lte widgets for charting",
     "type": "bundle"
 }

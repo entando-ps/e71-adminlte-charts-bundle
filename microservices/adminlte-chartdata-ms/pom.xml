@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.entando.example</groupId>
 	<artifactId>adminlte-chartdata-ms</artifactId>
-	<version>0.0.4</version>
+	<version>0.0.5</version>
 	<name>e71-spring-boot-ms</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
