@@ -15,4 +15,4 @@ class WidgetElement extends HTMLElement {
     }
 }
 
-customElements.define('adminlte-simple-chart', WidgetElement);
+customElements.define('adminlte-simple-cra', WidgetElement);

@@ -9,14 +9,14 @@
             "group": "free",
             "publicFolder": "public",
             "titles": {
-                "en": "E71 Simple MFE",
-                "it": "E71 Simple MFE"
+                "en": "admin lte simple cra",
+                "it": "admin lte simple cra"
             }
         }
     ],
     "svc": [],
     "name": "e71adminltechartsbundle",
-    "version": "0.0.1",
+    "version": "0.0.6",
     "description": "e71-react-widget description",
     "type": "bundle"
 }
